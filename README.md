@@ -64,6 +64,9 @@ npm install
 ```bash
 npm run dev
 ```
+it's likely come up at default url: [http://localhost:5173/](http://localhost:5173/)
+it also prints url as a `npm run dev` command response
+
 ## To run test cases
 ``` bash
 npm run test
