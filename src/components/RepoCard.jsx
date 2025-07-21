@@ -9,7 +9,8 @@ function RepoCard({ repo }) {
   return (
     <div className={`repo-card ${expanded ? 'expanded' : ''}`} >
       <div className="repo-title" onClick={handleToggleExpand}>
-        {repo.name}
+      <span>{repo.name}</span>
+      <span className="expand-indicator">{expanded ? '_' : '+'}</span>
       </div>
       <div className="repo-description">{repo.description}</div>
       {expanded && <RepoDetails repo={repo} />}
