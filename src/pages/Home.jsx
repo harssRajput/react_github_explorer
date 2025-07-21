@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import RepoList from '../components/RepoList';
 
 const mockRepos = [
@@ -24,12 +25,13 @@ const mockRepos = [
 ];
 
 const Home = () => {
+  const [repos, _] = useState(mockRepos);
 
   return (
     <div className="home-container">
       <h1>GoDaddy Github Repositories</h1>
       <RepoList
-        repos={mockRepos}
+        repos={repos}
       />
     </div>
   );
