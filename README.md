@@ -11,7 +11,8 @@
 
 ## App Video Demo
 
-Uploading Screen Recording 2025-07-21 at 1.mp4…
+https://github.com/user-attachments/assets/058cb5b8-028c-43ae-a56f-2c92089d7748
+
 
 
 ## Layer-based Directory Structure
