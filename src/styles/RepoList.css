@@ -1,0 +1,7 @@
+.repo-list {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}

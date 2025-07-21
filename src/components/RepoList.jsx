@@ -1,5 +1,7 @@
 import React from 'react';
+
 import RepoCard from './RepoCard';
+import '../styles/RepoList.css';
 
 const RepoList = ({ repos }) => {
   return (

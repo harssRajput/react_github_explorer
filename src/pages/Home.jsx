@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
+
 import RepoList from '../components/RepoList';
 import {fetchAllRepos} from '../api/github';
+import '../styles/Home.css';
+
 
 const Home = () => {
   const [repos, setRepos] = useState([]);
@@ -27,7 +30,7 @@ const Home = () => {
   }, []);
 
   if (loading) return <p className="loading">Loading...</p>;
-  if (error) return <p>{error}</p>;
+  if (error) return <p className="error">{error}</p>;
   return (
     <div className="home-container">
       <h1>GoDaddy Github Repositories</h1>

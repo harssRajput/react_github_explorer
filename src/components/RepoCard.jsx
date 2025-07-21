@@ -1,5 +1,7 @@
 import {useState} from 'react';
+
 import RepoDetails from "./RepoDetails";
+import '../styles/RepoCard.css';
 
 function RepoCard({ repo }) {
   const [expanded, setExpanded] = useState(false);

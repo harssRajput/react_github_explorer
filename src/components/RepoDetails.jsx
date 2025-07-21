@@ -1,4 +1,4 @@
-import React from 'react';
+import '../styles/RepoDetails.css';
 
 function RepoDetails({ repo }) {
   return (
