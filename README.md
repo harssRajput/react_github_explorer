@@ -1,12 +1,17 @@
 
 
 ## Table of Contents
+0. [Video Demo](#App Demo)
 1. [Directory Structure](#layer-based-directory-structure)
 2. [Directory Structure Breakdown](#repo-structure-breakdown)
 3. [Setup Instructions](#setup-instructions)
 4. [Design Decisions](#design-decisions)
 5. [Skipped Features](#what-was-skipped-due-to-time-constraint-or-to-avoid-over-engineeringaka-speculative-generality-anti-pattern-for-this-small-task)
 6. [Test Coverage Summary](#test-coverage-summary)
+
+## App Video Demo
+
+Uploading Screen Recording 2025-07-21 at 1.mp4…
 
 
 ## Layer-based Directory Structure
